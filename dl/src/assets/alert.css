@@ -1,0 +1,18 @@
+/* BasicAlerts.css */
+
+.alertStack {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.alert {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    /* Adjust the transition duration as needed */
+}
+
+.alert.exiting {
+    opacity: 0;
+}

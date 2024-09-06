@@ -1,0 +1,24 @@
+.dlDetail {
+    margin-top: 6rem;
+    color: black;
+}
+
+.centeredListItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedListItem {
+    border-left: 5px solid rgb(230, 174, 174);
+    /* Change the color and width of the border */
+}
+
+.container {
+    background-color: rgb(237, 240, 244);
+}
+
+.container:hover {
+    background-color: rgb(25, 118, 210);
+    color: #fff;
+}

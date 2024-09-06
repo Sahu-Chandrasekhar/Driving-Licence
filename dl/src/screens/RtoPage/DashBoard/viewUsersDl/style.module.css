@@ -1,0 +1,48 @@
+:root{
+    --icon-primary: green;
+    --icon-secondary: red;
+    --icon-secondary-hover: #ff3333;
+    --icon-primary-hover: #00cd00;
+    --icon-tertiary: rgb(237, 87, 87);
+    --icon-tertiary-hover: #fa1717ef;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+.CheckBoxIcon {
+    color: var( --icon-primary);
+    transition: font-size 0.4s;
+}
+
+.CheckBoxIcon:hover {
+    color: var(--icon-primary-hover);
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+.CancelIcon {
+    color: var( --icon-secondary);
+    transition: font-size 0.4s;
+}
+
+.CancelIcon:hover {
+    color: var(--icon-secondary-hover);
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+
+.DeleteIcon {
+    color: var(--icon-tertiary);
+    transition: font-size 0.4s;
+}
+
+.DeleteIcon:hover {
+    color: var(--icon-tertiary-hover);
+    cursor: pointer;
+    font-size: 20px; 
+}
+
+

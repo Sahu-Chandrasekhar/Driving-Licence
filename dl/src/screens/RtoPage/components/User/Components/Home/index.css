@@ -1,0 +1,46 @@
+.card {
+  width: 20rem !important;
+  padding: 7px 0px 0px 12px !important;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 0px #7c7676;
+}
+
+.list-group {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  column-gap: 1px;
+  padding: 0px 0px 0px 26px;
+  color: #708090;
+}
+
+.card-titel {
+  padding: 0 0 0 26px;
+  font-size: medium;
+  font-weight: 600;
+  color: cornflowerblue;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 67rem;
+}
+
+.apply {
+  float: inline-end;
+  color: plum !important;
+  font-size: small;
+  font-weight: 600;
+  box-shadow: 0 0 4px 0px #9f9f9f !important;
+}
+
+
+
+
+
